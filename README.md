@@ -1,4 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and modified to
+support a clear structure and enhanced with additional modules to make development quicker.
+
+## Features
+
+### Additional Features
+
+- TailwindCSS integration
+- More boilerplate code to support third party modules
+- Error boundaries for graceful error handling
+- Enhanced API boilerplate code
+
+### Recommended future enhancements
+
+| Tool / Library                                        | Description                                 |
+| :---------------------------------------------------- | :------------------------------------------ |
+| [react-hook-form](https://react-hook-form.com/)       | Used for form validations                   |
+| [redux](https://redux.js.org/)                        | Used for state management                   |
+| [framer-motion](https://www.framer.com/motion/)       | Useful for animation and micro-interactions |
+| [turbo-repo](https://turborepo.org/)                  | Useful for structuring a scalable monorepo  |
+| [Github actions](https://github.com/features/actions) | Set up your automated CICD pipelines        |
 
 ## Getting Started
 
@@ -14,7 +34,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/sample.ts`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
