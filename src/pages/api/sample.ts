@@ -23,7 +23,7 @@ const handleGet = async (
   return res.status(501).end('Method not implemented');
 };
 
-export const handler = async (req: NextApiRequest, res: NextApiResponse) => {
+const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   const { method } = req;
   switch (method) {
     case 'POST':
@@ -35,3 +35,5 @@ export const handler = async (req: NextApiRequest, res: NextApiResponse) => {
       res.status(405).end(`Method ${method} Not Allowed`);
   }
 };
+
+export default handler;
